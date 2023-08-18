@@ -1,0 +1,23 @@
+.header {
+    display: flex;
+    justify-content: space-around;
+    width: 100vw;
+    background-color: #333;
+}
+
+.userSection {
+    display: flex;
+    width: 50vw;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.logoutButton {
+    width: 200px;
+    height: 50px;
+    font-size: large;
+    background-color: #666;
+    color: #fff;
+    border: none;
+}

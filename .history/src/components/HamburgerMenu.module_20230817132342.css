@@ -1,0 +1,28 @@
+.hamburgerMenu {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.hamburgerMenu.open .bar:nth-child(1) {
+    transform: rotate(-45deg) translate(-3px, 5px);
+    background-color: #fff;
+}
+
+.hamburgerMenu.open .bar:nth-child(2) {
+    opacity: 0;
+}
+
+.hamburgerMenu.open .bar:nth-child(3) {
+    transform: rotate(45deg) translate(-3px, -5px);
+}
+
+@media (max-width: 768px) {
+    .hamburgerMenu {
+        display: block;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        z-index: 999;
+    }
+}

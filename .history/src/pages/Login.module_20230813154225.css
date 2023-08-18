@@ -1,0 +1,14 @@
+.loginPage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.loginButton {
+    width: 200px;
+    height: 50px;
+    font-size: large;
+    background-color: #666;
+    border: none;
+}
